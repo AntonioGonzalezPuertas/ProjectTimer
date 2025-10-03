@@ -1,0 +1,21 @@
+# Project Timer Requirements
+
+# Core application uses only Python standard library modules:
+# - tkinter (GUI framework)
+# - time (time operations)
+# - json (data persistence)
+# - os (file operations)
+# - datetime (date/time handling)
+
+# For auto-restart functionality (development only):
+watchdog>=2.1.0
+
+# If you want to create an executable file, you can optionally install:
+# pyinstaller>=4.0
+
+# To install dependencies:
+# pip install -r requirements.txt
+
+# To create executable (optional):
+# pip install pyinstaller
+# pyinstaller --onefile --windowed project_timer.py

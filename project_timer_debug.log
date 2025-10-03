@@ -1,0 +1,357 @@
+2025-10-03 16:59:36,806 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 16:59:36,806 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6}}
+2025-10-03 16:59:36,806 - DEBUG - Most recent project: GSG
+2025-10-03 16:59:36,827 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 16:59:36,827 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 16:59:36,828 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6}}
+2025-10-03 16:59:36,828 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6}}
+2025-10-03 16:59:36,828 - DEBUG - Most recent project: GSG
+2025-10-03 17:01:20,613 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:01:20,613 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:01:20,613 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:01:20,614 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6}}
+2025-10-03 17:01:20,614 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6}}
+2025-10-03 17:01:20,614 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6}}
+2025-10-03 17:01:20,616 - DEBUG - Most recent project: GSG
+2025-10-03 17:01:20,616 - DEBUG - Most recent project: GSG
+2025-10-03 17:01:20,616 - DEBUG - Most recent project: GSG
+2025-10-03 17:01:28,168 - DEBUG - Toggle timer...
+2025-10-03 17:01:28,168 - DEBUG - Starting timer...
+2025-10-03 17:01:33,378 - DEBUG - Toggle timer...
+2025-10-03 17:01:44,058 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:01:44,059 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6}}
+2025-10-03 17:01:44,060 - DEBUG - Most recent project: GSG
+2025-10-03 17:01:46,944 - DEBUG - Toggle timer...
+2025-10-03 17:01:46,944 - DEBUG - Starting timer...
+2025-10-03 17:01:53,542 - DEBUG - Toggle timer...
+2025-10-03 17:01:56,692 - DEBUG - Toggle timer...
+2025-10-03 17:03:18,301 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:03:18,301 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6}}
+2025-10-03 17:03:18,301 - DEBUG - Most recent project: GSG
+2025-10-03 17:03:18,301 - DEBUG - Most recent project: GSG
+2025-10-03 17:03:18,301 - DEBUG - Most recent project: GSG
+2025-10-03 17:03:23,461 - DEBUG - Timer status: TimerStatus.RUNNING, Session time: 1s
+2025-10-03 17:03:26,816 - DEBUG - Timer status: TimerStatus.PAUSED, Session time: 4s
+2025-10-03 17:03:57,898 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:03:57,899 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:03:57,899 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:03:57,899 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6}}
+2025-10-03 17:03:57,899 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6}}
+2025-10-03 17:03:57,900 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6}}
+2025-10-03 17:03:57,901 - DEBUG - Most recent project: GSG
+2025-10-03 17:03:57,901 - DEBUG - Most recent project: GSG
+2025-10-03 17:03:57,901 - DEBUG - Most recent project: GSG
+2025-10-03 17:03:59,425 - DEBUG - Timer status: TimerStatus.RUNNING, Session time: 1s
+2025-10-03 17:04:03,232 - DEBUG - Timer status: TimerStatus.PAUSED, Session time: 4s
+2025-10-03 17:04:14,427 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:04:14,427 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:04:14,427 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6}}
+2025-10-03 17:04:14,427 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6}}
+2025-10-03 17:04:14,427 - DEBUG - Most recent project: GSG
+2025-10-03 17:04:14,427 - DEBUG - Most recent project: GSG
+2025-10-03 17:04:16,303 - DEBUG - Timer status: TimerStatus.RUNNING, Session time: 1s
+2025-10-03 17:04:17,304 - DEBUG - Timer status: TimerStatus.PAUSED, Session time: 1s
+2025-10-03 17:04:18,789 - DEBUG - Timer status: TimerStatus.RUNNING, Session time: 3s
+2025-10-03 17:04:20,540 - DEBUG - Timer status: TimerStatus.PAUSED, Session time: 4s
+2025-10-03 17:04:25,375 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:04:25,376 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6}}
+2025-10-03 17:04:25,378 - DEBUG - Most recent project: GSG
+2025-10-03 17:04:25,381 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:04:25,383 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6}}
+2025-10-03 17:04:25,384 - DEBUG - Most recent project: GSG
+2025-10-03 17:04:25,387 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:04:25,388 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6}}
+2025-10-03 17:04:25,388 - DEBUG - Most recent project: GSG
+2025-10-03 17:04:27,589 - DEBUG - Timer status: TimerStatus.RUNNING, Session time: 1s
+2025-10-03 17:04:28,741 - DEBUG - Timer status: TimerStatus.PAUSED, Session time: 2s
+2025-10-03 17:04:39,575 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:04:39,575 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:04:39,575 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:04:39,575 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6}}
+2025-10-03 17:04:39,575 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6}}
+2025-10-03 17:04:39,575 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6}}
+2025-10-03 17:04:39,575 - DEBUG - Most recent project: GSG
+2025-10-03 17:04:39,575 - DEBUG - Most recent project: GSG
+2025-10-03 17:04:39,575 - DEBUG - Most recent project: GSG
+2025-10-03 17:04:40,465 - DEBUG - Timer status: TimerStatus.RUNNING, Session time: 1s
+2025-10-03 17:04:43,396 - DEBUG - Timer status: TimerStatus.PAUSED, Session time: 3s
+2025-10-03 17:04:45,420 - DEBUG - Timer status: TimerStatus.RUNNING, Session time: 5s
+2025-10-03 17:04:50,503 - DEBUG - Timer status: TimerStatus.PAUSED, Session time: 10s
+2025-10-03 17:04:51,441 - DEBUG - Timer status: TimerStatus.RUNNING, Session time: 11s
+2025-10-03 17:04:58,490 - DEBUG - Timer status: TimerStatus.PAUSED, Session time: 26s
+2025-10-03 17:04:59,366 - DEBUG - Timer status: TimerStatus.RUNNING, Session time: 27s
+2025-10-03 17:05:16,732 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:05:16,732 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6}}
+2025-10-03 17:05:16,732 - DEBUG - Most recent project: GSG
+2025-10-03 17:05:20,589 - DEBUG - Timer status: TimerStatus.RUNNING, Session time: 1s
+2025-10-03 17:05:23,117 - DEBUG - Timer status: TimerStatus.PAUSED, Session time: 3s
+2025-10-03 17:05:31,204 - DEBUG - Timer status: TimerStatus.RUNNING, Session time: 5s
+2025-10-03 17:05:37,304 - DEBUG - Timer status: TimerStatus.PAUSED, Session time: 11s
+2025-10-03 17:06:36,413 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:06:36,413 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6}}
+2025-10-03 17:06:36,413 - DEBUG - Most recent project: GSG
+2025-10-03 17:06:37,841 - DEBUG - Timer status: TimerStatus.RUNNING, Session time: 60s
+2025-10-03 17:07:09,555 - DEBUG - Timer status: TimerStatus.PAUSED, Session time: 1920s
+2025-10-03 17:07:21,297 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:07:21,297 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6}}
+2025-10-03 17:07:21,297 - DEBUG - Most recent project: GSG
+2025-10-03 17:10:48,889 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:10:48,889 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6}}
+2025-10-03 17:10:48,889 - DEBUG - Most recent project: GSG
+2025-10-03 17:17:07,692 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:17:07,700 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6}}
+2025-10-03 17:17:07,700 - DEBUG - Most recent project: GSG
+2025-10-03 17:17:11,963 - DEBUG - Timer status: TimerStatus.RUNNING, Session time: 60s
+2025-10-03 17:17:15,216 - DEBUG - Timer status: TimerStatus.PAUSED, Session time: 240s
+2025-10-03 17:17:53,836 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:17:53,836 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5, '2025-09-03T00:00:006': 7.1}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6}}
+2025-10-03 17:17:53,847 - DEBUG - Most recent project: GSG
+2025-10-03 17:18:39,504 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:18:39,504 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5, '2025-09-03T00:00:006': 7.1}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6}}
+2025-10-03 17:18:39,504 - DEBUG - Most recent project: GSG
+2025-10-03 17:18:41,883 - DEBUG - Timer status: TimerStatus.RUNNING, Session time: 60s
+2025-10-03 17:18:58,111 - DEBUG - Timer status: TimerStatus.PAUSED, Session time: 1020s
+2025-10-03 17:20:25,450 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:20:25,451 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5, '2025-09-03T00:00:006': 14.1}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6}}
+2025-10-03 17:20:25,451 - DEBUG - Most recent project: GSG
+2025-10-03 17:20:28,134 - DEBUG - Timer status: TimerStatus.RUNNING, Session time: 60s
+2025-10-03 17:20:39,128 - DEBUG - Timer status: TimerStatus.PAUSED, Session time: 660s
+2025-10-03 17:20:55,590 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:20:55,590 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5, '2025-09-03T00:00:006': 0.2}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6}}
+2025-10-03 17:20:55,590 - DEBUG - Most recent project: GSG
+2025-10-03 17:20:59,772 - DEBUG - Timer status: TimerStatus.RUNNING, Session time: 60s
+2025-10-03 17:21:36,433 - DEBUG - Timer status: TimerStatus.PAUSED, Session time: 2220s
+2025-10-03 17:23:34,482 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:23:34,482 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5, '2025-09-03T00:00:006': 0.6}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6}}
+2025-10-03 17:23:34,482 - DEBUG - Most recent project: GSG
+2025-10-03 17:23:35,973 - DEBUG - Timer status: TimerStatus.RUNNING, Session time: 60s
+2025-10-03 17:23:38,406 - DEBUG - Timer status: TimerStatus.PAUSED, Session time: 180s
+2025-10-03 17:24:27,457 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:24:27,457 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5, '2025-09-03T00:00:006': 0.6, '2025-10-03T17:23:39.875654': 0.1}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6}}
+2025-10-03 17:24:27,457 - DEBUG - Most recent project: GSG
+2025-10-03 17:24:29,145 - DEBUG - Timer status: TimerStatus.RUNNING, Session time: 60s
+2025-10-03 17:24:32,610 - DEBUG - Timer status: TimerStatus.PAUSED, Session time: 240s
+2025-10-03 17:26:18,080 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:26:38,815 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:27:17,611 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:27:17,629 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5, '2025-09-03T00:00:006': 0.6, '2025-10-03T17:23:39.875654': 0.1}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6}}
+2025-10-03 17:27:17,630 - DEBUG - Most recent project: GSG
+2025-10-03 17:27:22,473 - DEBUG - Timer status: TimerStatus.RUNNING, Session time: 60s
+2025-10-03 17:27:26,416 - DEBUG - Timer status: TimerStatus.PAUSED, Session time: 240s
+2025-10-03 17:27:52,772 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:27:52,772 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5, '2025-09-03T00:00:00': 0.6, '2025-10-03T17:23:39': 0.1, '2025-10-03T17:27:27': 0.1}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6}}
+2025-10-03 17:27:52,772 - DEBUG - Most recent project: GSG
+2025-10-03 17:28:23,391 - DEBUG - Timer status: TimerStatus.RUNNING, Session time: 60s
+2025-10-03 17:28:50,966 - DEBUG - Timer status: TimerStatus.PAUSED, Session time: 1680s
+2025-10-03 17:29:01,894 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:29:01,894 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5, '2025-09-03T00:00:00': 0.6, '2025-10-03T17:23:39': 0.1, '2025-10-03T17:27:27': 0.1, '2025-10-03T17:28:52': 0.5}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6}}
+2025-10-03 17:29:01,894 - DEBUG - Most recent project: GSG
+2025-10-03 17:29:09,670 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:29:09,670 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5, '2025-09-03T00:00:00': 0.6, '2025-10-03T17:23:39': 0.1, '2025-10-03T17:27:27': 0.1, '2025-10-03T17:28:52': 0.5, '2025-10-03T17:29:05': 0.0}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6}}
+2025-10-03 17:29:09,670 - DEBUG - Most recent project: GSG
+2025-10-03 17:30:55,427 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:30:55,427 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5, '2025-09-03T00:00:00': 0.6, '2025-10-03T17:23:39': 0.1, '2025-10-03T17:27:27': 0.1, '2025-10-03T17:28:52': 0.5, '2025-10-03T17:29:05': 0.0}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6}}
+2025-10-03 17:30:55,435 - DEBUG - Most recent project: GSG
+2025-10-03 17:32:33,755 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:32:33,755 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5, '2025-09-03T00:00:00': 0.6, '2025-10-03T17:23:39': 0.1, '2025-10-03T17:27:27': 0.1, '2025-10-03T17:28:52': 0.5, '2025-10-03T17:29:05': 0.0}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6}}
+2025-10-03 17:32:33,755 - DEBUG - Most recent project: GSG
+2025-10-03 17:33:32,649 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:33:32,650 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5, '2025-09-03T00:00:00': 0.6, '2025-10-03T17:23:39': 0.1, '2025-10-03T17:27:27': 0.1, '2025-10-03T17:28:52': 0.5, '2025-10-03T17:29:05': 0.0}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6}}
+2025-10-03 17:33:32,652 - DEBUG - Most recent project: GSG
+2025-10-03 17:34:08,484 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:34:08,484 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5, '2025-09-03T00:00:00': 0.6, '2025-10-03T17:23:39': 0.1, '2025-10-03T17:27:27': 0.1, '2025-10-03T17:28:52': 0.5, '2025-10-03T17:29:05': 0.0}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6}}
+2025-10-03 17:34:08,484 - DEBUG - Most recent project: GSG
+2025-10-03 17:34:44,976 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:34:44,989 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5, '2025-09-03T00:00:00': 0.6, '2025-10-03T17:23:39': 0.1, '2025-10-03T17:27:27': 0.1, '2025-10-03T17:28:52': 0.5, '2025-10-03T17:29:05': 0.0}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6}}
+2025-10-03 17:34:44,989 - DEBUG - Most recent project: GSG
+2025-10-03 17:35:26,950 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:35:26,956 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5, '2025-09-03T00:00:00': 0.6, '2025-10-03T17:23:39': 0.1, '2025-10-03T17:27:27': 0.1, '2025-10-03T17:28:52': 0.5, '2025-10-03T17:29:05': 0.0}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6}}
+2025-10-03 17:35:26,960 - DEBUG - Most recent project: GSG
+2025-10-03 17:36:33,111 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:36:33,111 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5, '2025-09-03T00:00:00': 0.6, '2025-10-03T17:23:39': 0.1, '2025-10-03T17:27:27': 0.1, '2025-10-03T17:28:52': 0.5, '2025-10-03T17:29:05': 0.0}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6}}
+2025-10-03 17:36:33,111 - DEBUG - Most recent project: GSG
+2025-10-03 17:37:06,708 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:37:06,708 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5, '2025-09-03T00:00:00': 0.6, '2025-10-03T17:23:39': 0.1, '2025-10-03T17:27:27': 0.1, '2025-10-03T17:28:52': 0.5, '2025-10-03T17:29:05': 0.0}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6}}
+2025-10-03 17:37:06,708 - DEBUG - Most recent project: GSG
+2025-10-03 17:37:28,975 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:37:28,975 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5, '2025-09-03T00:00:00': 0.6, '2025-10-03T17:23:39': 0.1, '2025-10-03T17:27:27': 0.1, '2025-10-03T17:28:52': 0.5, '2025-10-03T17:29:05': 0.0, '2025-10-03T17:37:16': 0.0}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6}}
+2025-10-03 17:37:28,975 - DEBUG - Most recent project: GSG
+2025-10-03 17:38:13,740 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:38:13,740 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5, '2025-09-03T00:00:00': 0.6, '2025-10-03T17:23:39': 0.1, '2025-10-03T17:27:27': 0.1, '2025-10-03T17:28:52': 0.5, '2025-10-03T17:29:05': 0.0, '2025-10-03T17:37:16': 0.0, '2025-10-03T17:38:07': 0.0}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6}}
+2025-10-03 17:38:13,742 - DEBUG - Most recent project: GSG
+2025-10-03 17:38:15,050 - DEBUG - Timer status: TimerStatus.RUNNING, Session time: 60s
+2025-10-03 17:38:16,616 - DEBUG - Timer status: TimerStatus.PAUSED, Session time: 120s
+2025-10-03 17:38:18,758 - DEBUG - Timer status: TimerStatus.RUNNING, Session time: 240s
+2025-10-03 17:40:28,846 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:40:28,848 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5, '2025-09-03T00:00:00': 0.6, '2025-10-03T17:23:39': 0.1, '2025-10-03T17:27:27': 0.1, '2025-10-03T17:28:52': 0.5, '2025-10-03T17:29:05': 0.0, '2025-10-03T17:37:16': 0.0, '2025-10-03T17:38:07': 0.0}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6}}
+2025-10-03 17:40:28,848 - DEBUG - Most recent project: GSG
+2025-10-03 17:40:31,526 - DEBUG - Timer status: TimerStatus.RUNNING, Session time: 60s
+2025-10-03 17:41:14,160 - DEBUG - Timer status: TimerStatus.PAUSED, Session time: 2580s
+2025-10-03 17:42:23,564 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:42:23,564 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5, '2025-09-03T00:00:00': 0.6, '2025-10-03T17:23:39': 0.1, '2025-10-03T17:27:27': 0.1, '2025-10-03T17:28:52': 0.5, '2025-10-03T17:29:05': 0.0, '2025-10-03T17:37:16': 0.0, '2025-10-03T17:38:07': 0.0, '2025-10-03T17:41:18': 0.7}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6}}
+2025-10-03 17:42:23,564 - DEBUG - Most recent project: GSG
+2025-10-03 17:42:25,008 - DEBUG - Timer status: TimerStatus.RUNNING, Session time: 60s
+2025-10-03 17:42:33,522 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:42:33,522 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5, '2025-09-03T00:00:00': 0.6, '2025-10-03T17:23:39': 0.1, '2025-10-03T17:27:27': 0.1, '2025-10-03T17:28:52': 0.5, '2025-10-03T17:29:05': 0.0, '2025-10-03T17:37:16': 0.0, '2025-10-03T17:38:07': 0.0, '2025-10-03T17:41:18': 0.7, '2025-10-03T17:42:29': 0.1}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6}}
+2025-10-03 17:42:33,522 - DEBUG - Most recent project: GSG
+2025-10-03 17:45:11,028 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:45:11,028 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5, '2025-09-03T00:00:00': 0.6, '2025-10-03T17:23:39': 0.1, '2025-10-03T17:27:27': 0.1, '2025-10-03T17:28:52': 0.5, '2025-10-03T17:29:05': 0.0, '2025-10-03T17:37:16': 0.0, '2025-10-03T17:38:07': 0.0, '2025-10-03T17:41:18': 0.7, '2025-10-03T17:42:29': 0.1}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6}}
+2025-10-03 17:45:11,028 - DEBUG - Most recent project: GSG
+2025-10-03 17:45:13,049 - DEBUG - Timer status: TimerStatus.RUNNING, Session time: 60s
+2025-10-03 17:45:14,921 - DEBUG - Timer status: TimerStatus.PAUSED, Session time: 120s
+2025-10-03 17:45:32,206 - DEBUG - Timer status: TimerStatus.RUNNING, Session time: 60s
+2025-10-03 17:45:39,603 - DEBUG - Timer status: TimerStatus.PAUSED, Session time: 480s
+2025-10-03 17:47:54,206 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:47:54,206 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5, '2025-09-03T00:00:00': 0.6, '2025-10-03T17:23:39': 0.1, '2025-10-03T17:27:27': 0.1, '2025-10-03T17:28:52': 0.5, '2025-10-03T17:29:05': 0.0, '2025-10-03T17:37:16': 0.0, '2025-10-03T17:38:07': 0.0, '2025-10-03T17:41:18': 0.7, '2025-10-03T17:42:29': 0.1}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6}}
+2025-10-03 17:47:54,208 - DEBUG - Most recent project: GSG
+2025-10-03 17:48:05,015 - DEBUG - Timer status: TimerStatus.RUNNING, Session time: 60s
+2025-10-03 17:48:06,538 - DEBUG - Timer status: TimerStatus.PAUSED, Session time: 120s
+2025-10-03 17:48:20,884 - DEBUG - Timer status: TimerStatus.RUNNING, Session time: 60s
+2025-10-03 17:48:24,722 - DEBUG - Timer status: TimerStatus.PAUSED, Session time: 240s
+2025-10-03 17:51:39,046 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:51:39,046 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3, '2025-10-03T17:49:17': 0.1}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5, '2025-09-03T00:00:00': 0.6, '2025-10-03T17:23:39': 0.1, '2025-10-03T17:27:27': 0.1, '2025-10-03T17:28:52': 0.5, '2025-10-03T17:29:05': 0.0, '2025-10-03T17:37:16': 0.0, '2025-10-03T17:38:07': 0.0, '2025-10-03T17:41:18': 0.7, '2025-10-03T17:42:29': 0.1, '2025-10-03T17:49:44': 0.0}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6, '2025-10-03T17:48:09': 0.1}, 'GSG2': 0}
+2025-10-03 17:52:04,524 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:52:04,540 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3, '2025-10-03T17:49:17': 0.1}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5, '2025-09-03T00:00:00': 0.6, '2025-10-03T17:23:39': 0.1, '2025-10-03T17:27:27': 0.1, '2025-10-03T17:28:52': 0.5, '2025-10-03T17:29:05': 0.0, '2025-10-03T17:37:16': 0.0, '2025-10-03T17:38:07': 0.0, '2025-10-03T17:41:18': 0.7, '2025-10-03T17:42:29': 0.1, '2025-10-03T17:49:44': 0.0}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6, '2025-10-03T17:48:09': 0.1}}
+2025-10-03 17:52:04,548 - DEBUG - Most recent project: GSG
+2025-10-03 17:52:22,483 - DEBUG - Timer status: TimerStatus.RUNNING, Session time: 60s
+2025-10-03 17:52:28,995 - DEBUG - Timer status: TimerStatus.PAUSED, Session time: 420s
+2025-10-03 17:53:09,072 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:53:09,072 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3, '2025-10-03T17:49:17': 0.1}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5, '2025-09-03T00:00:00': 0.6, '2025-10-03T17:23:39': 0.1, '2025-10-03T17:27:27': 0.1, '2025-10-03T17:28:52': 0.5, '2025-10-03T17:29:05': 0.0, '2025-10-03T17:37:16': 0.0, '2025-10-03T17:38:07': 0.0, '2025-10-03T17:41:18': 0.7, '2025-10-03T17:42:29': 0.1, '2025-10-03T17:49:44': 0.0, '2025-10-03T17:52:13': 0.0}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6, '2025-10-03T17:48:09': 0.1}, 'GSG2': {'2025-10-03T17:52:34': 0.1}}
+2025-10-03 17:53:09,072 - DEBUG - Most recent project: GSG2
+2025-10-03 17:53:19,851 - DEBUG - Timer status: TimerStatus.RUNNING, Session time: 60s
+2025-10-03 17:53:35,082 - DEBUG - Timer status: TimerStatus.PAUSED, Session time: 660s
+2025-10-03 17:54:40,969 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:54:40,969 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3, '2025-10-03T17:49:17': 0.1}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5, '2025-09-03T00:00:00': 0.6, '2025-10-03T17:23:39': 0.1, '2025-10-03T17:27:27': 0.1, '2025-10-03T17:28:52': 0.5, '2025-10-03T17:29:05': 0.0, '2025-10-03T17:37:16': 0.0, '2025-10-03T17:38:07': 0.0, '2025-10-03T17:41:18': 0.7, '2025-10-03T17:42:29': 0.1, '2025-10-03T17:49:44': 0.0, '2025-10-03T17:52:13': 0.0}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6, '2025-10-03T17:48:09': 0.1}, 'GSG2': {'2025-10-03T17:52:34': 0.1, '2025-10-03T17:53:16': 0.0}, 'GSG3': {'2025-10-03T17:53:24': 0.1}}
+2025-10-03 17:54:40,978 - DEBUG - Most recent project: GSG3
+2025-10-03 17:54:54,728 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:54:54,728 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3, '2025-10-03T17:49:17': 0.1}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5, '2025-09-03T00:00:00': 0.6, '2025-10-03T17:23:39': 0.1, '2025-10-03T17:27:27': 0.1, '2025-10-03T17:28:52': 0.5, '2025-10-03T17:29:05': 0.0, '2025-10-03T17:37:16': 0.0, '2025-10-03T17:38:07': 0.0, '2025-10-03T17:41:18': 0.7, '2025-10-03T17:42:29': 0.1, '2025-10-03T17:49:44': 0.0, '2025-10-03T17:52:13': 0.0}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6, '2025-10-03T17:48:09': 0.1}, 'GSG2': {'2025-10-03T17:52:34': 0.1, '2025-10-03T17:53:16': 0.0}, 'GSG3': {'2025-10-03T17:53:24': 0.1}}
+2025-10-03 17:54:54,728 - DEBUG - Most recent project: GSG3
+2025-10-03 17:55:02,540 - DEBUG - Timer status: TimerStatus.RUNNING, Session time: 60s
+2025-10-03 17:55:13,438 - DEBUG - Timer status: TimerStatus.PAUSED, Session time: 660s
+2025-10-03 17:55:23,741 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:55:23,741 - DEBUG - Loaded projects data: {'Other': {'2024-10-03T15:00:06': 1, '2024-10-02T13:20:58': 3, '2025-10-03T17:49:17': 0.1}, 'GSG': {'2025-10-03T14:59:06': 2, '2025-10-02T13:19:58': 5, '2025-09-03T00:00:00': 0.6, '2025-10-03T17:23:39': 0.1, '2025-10-03T17:27:27': 0.1, '2025-10-03T17:28:52': 0.5, '2025-10-03T17:29:05': 0.0, '2025-10-03T17:37:16': 0.0, '2025-10-03T17:38:07': 0.0, '2025-10-03T17:41:18': 0.7, '2025-10-03T17:42:29': 0.1, '2025-10-03T17:49:44': 0.0, '2025-10-03T17:52:13': 0.0}, 'Test': {'2025-09-03T14:58:06': 4, '2025-09-02T13:18:58': 6, '2025-10-03T17:48:09': 0.1}, 'GSG2': {'2025-10-03T17:52:34': 0.1, '2025-10-03T17:53:16': 0.0}, 'GSG3': {'2025-10-03T17:53:24': 0.1, '2025-10-03T17:55:16': 0.2}}
+2025-10-03 17:55:23,757 - DEBUG - Most recent project: GSG3
+2025-10-03 17:56:25,699 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:56:25,699 - DEBUG - Loaded projects data: {}
+2025-10-03 17:58:51,753 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 17:58:51,753 - DEBUG - Loaded projects data: {}
+2025-10-03 18:00:26,013 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 18:00:26,013 - DEBUG - Loaded projects data: {}
+2025-10-03 18:02:18,329 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 18:02:18,330 - DEBUG - Loaded projects data: {}
+2025-10-03 18:02:34,955 - DEBUG - Timer status: TimerStatus.RUNNING, Session time: 60s
+2025-10-03 18:02:40,872 - DEBUG - Timer status: TimerStatus.PAUSED, Session time: 360s
+2025-10-03 18:03:16,398 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 18:03:16,398 - DEBUG - Loaded projects data: {'Noneffg': {'2025-10-03T18:02:24': 0.0, '2025-10-03T18:02:47': 0.1}}
+2025-10-03 18:03:16,398 - DEBUG - Most recent project: Noneffg
+2025-10-03 18:03:28,960 - DEBUG - Timer status: TimerStatus.RUNNING, Session time: 1s
+2025-10-03 18:03:39,259 - DEBUG - Timer status: TimerStatus.PAUSED, Session time: 11s
+2025-10-03 18:05:03,112 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 18:05:03,125 - DEBUG - Loaded projects data: {'Others': {'2025-10-03T18:02:24': 0.0, '2025-10-03T18:02:47': 0.1}, 'GSG': {}}
+2025-10-03 18:05:03,126 - DEBUG - Most recent project: Others
+2025-10-03 18:05:14,841 - DEBUG - Timer status: TimerStatus.RUNNING, Session time: 1s
+2025-10-03 18:05:16,346 - DEBUG - Timer status: TimerStatus.PAUSED, Session time: 2s
+2025-10-03 18:08:16,261 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 18:08:16,263 - DEBUG - Loaded projects data: {'Others': {'2025-10-03T18:02:24': 0.0, '2025-10-03T18:02:47': 0.1}, 'GSG': {}}
+2025-10-03 18:08:16,263 - DEBUG - Most recent project: Others
+2025-10-03 18:08:27,571 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 18:08:27,571 - DEBUG - Loaded projects data: {'Others': {'2025-10-03T18:02:24': 0.0, '2025-10-03T18:02:47': 0.1}, 'GSG': {}}
+2025-10-03 18:08:27,571 - DEBUG - Most recent project: Others
+2025-10-03 18:08:49,276 - DEBUG - Screen detection: {'screen_count': 2, 'primary_width': 1920, 'primary_height': 1080, 'secondary_left': True, 'total_width': 1920, 'detection_method': 'negative_coordinate_test'}
+2025-10-03 18:08:49,276 - DEBUG - Loaded projects data: {'Others': {'2025-10-03T18:02:24': 0.0, '2025-10-03T18:02:47': 0.1}, 'GSG': {}}
+2025-10-03 18:08:49,276 - DEBUG - Most recent project: Others
+2025-10-03 18:12:56,888 - DEBUG - Loaded projects data: {'Others': {'2025-10-03T18:02:24': 0.0, '2025-10-03T18:02:47': 0.1}, 'GSG': {}}
+2025-10-03 18:12:56,888 - DEBUG - Most recent project: Others
+2025-10-03 18:13:47,441 - DEBUG - Loaded projects data: {'Others': {'2025-10-03T18:02:24': 0.0, '2025-10-03T18:02:47': 0.1}, 'GSG': {}}
+2025-10-03 18:13:47,441 - DEBUG - Most recent project: Others
+2025-10-03 18:15:26,565 - DEBUG - Loaded projects data: {'Others': {'2025-10-03T18:02:24': 0.0, '2025-10-03T18:02:47': 0.1}, 'GSG': {}}
+2025-10-03 18:15:26,565 - DEBUG - Most recent project: Others
+2025-10-03 18:15:28,917 - DEBUG - Timer status: TimerStatus.RUNNING, Session time: 1s
+2025-10-03 18:15:32,966 - DEBUG - Timer status: TimerStatus.PAUSED, Session time: 5s
+2025-10-03 18:16:22,029 - DEBUG - Loaded projects data: {'Others': {'2025-10-03T18:02:24': 0.0, '2025-10-03T18:02:47': 0.1, '2025-10-03T18:15:38': 0.0}, 'GSG': {}}
+2025-10-03 18:16:22,029 - DEBUG - Most recent project: Others
+2025-10-03 18:16:23,830 - DEBUG - Timer status: TimerStatus.RUNNING, Session time: 1s
+2025-10-03 18:16:26,182 - DEBUG - Timer status: TimerStatus.PAUSED, Session time: 3s
+2025-10-03 18:18:22,262 - DEBUG - Loaded projects data: {'Others': {'2025-10-03T18:02:24': 0.0, '2025-10-03T18:02:47': 0.1, '2025-10-03T18:15:38': 0.0, '2025-10-03T18:16:30': 0.0}, 'GSG': {}}
+2025-10-03 18:18:22,262 - DEBUG - Most recent project: Others
+2025-10-03 18:18:24,207 - DEBUG - Timer status: TimerStatus.RUNNING, Session time: 1s
+2025-10-03 18:18:25,408 - DEBUG - Timer status: TimerStatus.PAUSED, Session time: 2s
+2025-10-03 18:26:47,690 - DEBUG - Loaded projects data: {'Others': {'2025-10-03T18:02:24': 0.0, '2025-10-03T18:02:47': 0.1, '2025-10-03T18:15:38': 0.0, '2025-10-03T18:16:30': 0.0}, 'GSG': {}}
+2025-10-03 18:26:47,690 - DEBUG - Most recent project: Others
+2025-10-03 18:26:49,920 - DEBUG - Timer status: TimerStatus.RUNNING, Session time: 1s
+2025-10-03 18:26:54,278 - DEBUG - Timer status: TimerStatus.PAUSED, Session time: 5s
+2025-10-03 18:26:58,069 - DEBUG - Timer status: TimerStatus.RUNNING, Session time: 7s
+2025-10-03 18:27:02,619 - DEBUG - Timer status: TimerStatus.PAUSED, Session time: 11s
+2025-10-03 18:27:08,307 - DEBUG - Timer status: TimerStatus.RUNNING, Session time: 1s
+2025-10-03 18:27:10,449 - DEBUG - Timer status: TimerStatus.PAUSED, Session time: 3s
+2025-10-03 18:33:00,975 - DEBUG - Loaded projects data: {'Others': {'2025-10-03T18:02:24': 0.0, '2025-10-03T18:02:47': 0.1, '2025-10-03T18:15:38': 0.0, '2025-10-03T18:16:30': 0.0, '2025-10-03T18:27:07': 0.0}, 'GSG': {}}
+2025-10-03 18:33:00,975 - DEBUG - Most recent project: Others
+2025-10-03 18:33:12,008 - DEBUG - Timer status: TimerStatus.RUNNING, Session time: 1s
+2025-10-03 18:33:13,876 - DEBUG - Timer status: TimerStatus.PAUSED, Session time: 2s
+2025-10-03 18:33:27,362 - DEBUG - Loaded projects data: {'Others': {'2025-10-03T18:02:24': 0.0, '2025-10-03T18:02:47': 0.1, '2025-10-03T18:15:38': 0.0, '2025-10-03T18:16:30': 0.0, '2025-10-03T18:27:07': 0.0, '2025-10-03T18:33:15': 0.0}, 'GSG': {}}
+2025-10-03 18:33:27,362 - DEBUG - Most recent project: Others
+2025-10-03 18:37:43,253 - DEBUG - Loaded projects data: {'Others': {'2025-10-03T18:02:24': 0.0, '2025-10-03T18:02:47': 0.1, '2025-10-03T18:15:38': 0.0, '2025-10-03T18:16:30': 0.0, '2025-10-03T18:27:07': 0.0, '2025-10-03T18:33:15': 0.0, '2025-10-03T18:34:07': 0.0}, 'GSG': {}}
+2025-10-03 18:37:43,253 - DEBUG - Most recent project: Others
+2025-10-03 18:37:57,965 - DEBUG - Loaded projects data: {'Others': {'2025-10-03T18:02:24': 0.0, '2025-10-03T18:02:47': 0.1, '2025-10-03T18:15:38': 0.0, '2025-10-03T18:16:30': 0.0, '2025-10-03T18:27:07': 0.0, '2025-10-03T18:33:15': 0.0, '2025-10-03T18:34:07': 0.0}, 'GSG': {}}
+2025-10-03 18:37:57,967 - DEBUG - Most recent project: Others
+2025-10-03 18:38:35,299 - DEBUG - Loaded projects data: {'Others': {'2025-10-03T18:02:24': 0.0, '2025-10-03T18:02:47': 0.1, '2025-10-03T18:15:38': 0.0, '2025-10-03T18:16:30': 0.0, '2025-10-03T18:27:07': 0.0, '2025-10-03T18:33:15': 0.0, '2025-10-03T18:34:07': 0.0}, 'GSG': {}}
+2025-10-03 18:38:35,301 - DEBUG - Most recent project: Others
+2025-10-03 18:38:58,170 - DEBUG - Loaded projects data: {'Others': {'2025-10-03T18:02:24': 0.0, '2025-10-03T18:02:47': 0.1, '2025-10-03T18:15:38': 0.0, '2025-10-03T18:16:30': 0.0, '2025-10-03T18:27:07': 0.0, '2025-10-03T18:33:15': 0.0, '2025-10-03T18:34:07': 0.0}, 'GSG': {}}
+2025-10-03 18:38:58,170 - DEBUG - Most recent project: Others
+2025-10-03 18:39:31,176 - DEBUG - Loaded projects data: {'Others': {'2025-10-03T18:02:24': 0.0, '2025-10-03T18:02:47': 0.1, '2025-10-03T18:15:38': 0.0, '2025-10-03T18:16:30': 0.0, '2025-10-03T18:27:07': 0.0, '2025-10-03T18:33:15': 0.0, '2025-10-03T18:34:07': 0.0}, 'GSG': {}}
+2025-10-03 18:39:31,176 - DEBUG - Most recent project: Others
+2025-10-03 18:40:35,333 - DEBUG - Loaded projects data: {'Others': {'2025-10-03T18:02:24': 0.0, '2025-10-03T18:02:47': 0.1, '2025-10-03T18:15:38': 0.0, '2025-10-03T18:16:30': 0.0, '2025-10-03T18:27:07': 0.0, '2025-10-03T18:33:15': 0.0, '2025-10-03T18:34:07': 0.0}, 'GSG': {}}
+2025-10-03 18:40:35,333 - DEBUG - Most recent project: Others
+2025-10-03 18:41:03,472 - DEBUG - Loaded projects data: {'Others': {'2025-10-03T18:02:24': 0.0, '2025-10-03T18:02:47': 0.1, '2025-10-03T18:15:38': 0.0, '2025-10-03T18:16:30': 0.0, '2025-10-03T18:27:07': 0.0, '2025-10-03T18:33:15': 0.0, '2025-10-03T18:34:07': 0.0}, 'GSG': {}}
+2025-10-03 18:41:03,472 - DEBUG - Most recent project: Others
+2025-10-03 18:41:25,810 - DEBUG - Loaded projects data: {'Others': {'2025-10-03T18:02:24': 0.0, '2025-10-03T18:02:47': 0.1, '2025-10-03T18:15:38': 0.0, '2025-10-03T18:16:30': 0.0, '2025-10-03T18:27:07': 0.0, '2025-10-03T18:33:15': 0.0, '2025-10-03T18:34:07': 0.0}, 'GSG': {}}
+2025-10-03 18:41:25,810 - DEBUG - Most recent project: Others
+2025-10-03 18:41:45,031 - DEBUG - Loaded projects data: {'Others': {'2025-10-03T18:02:24': 0.0, '2025-10-03T18:02:47': 0.1, '2025-10-03T18:15:38': 0.0, '2025-10-03T18:16:30': 0.0, '2025-10-03T18:27:07': 0.0, '2025-10-03T18:33:15': 0.0, '2025-10-03T18:34:07': 0.0}, 'GSG': {}}
+2025-10-03 18:41:45,031 - DEBUG - Most recent project: Others
+2025-10-03 18:42:32,343 - DEBUG - Loaded projects data: {'Others': {'2025-10-03T18:02:24': 0.0, '2025-10-03T18:02:47': 0.1, '2025-10-03T18:15:38': 0.0, '2025-10-03T18:16:30': 0.0, '2025-10-03T18:27:07': 0.0, '2025-10-03T18:33:15': 0.0, '2025-10-03T18:34:07': 0.0}, 'GSG': {}}
+2025-10-03 18:42:32,343 - DEBUG - Most recent project: Others
+2025-10-03 18:42:50,733 - DEBUG - Loaded projects data: {'Others': {'2025-10-03T18:02:24': 0.0, '2025-10-03T18:02:47': 0.1, '2025-10-03T18:15:38': 0.0, '2025-10-03T18:16:30': 0.0, '2025-10-03T18:27:07': 0.0, '2025-10-03T18:33:15': 0.0, '2025-10-03T18:34:07': 0.0}, 'GSG': {}}
+2025-10-03 18:42:50,738 - DEBUG - Most recent project: Others
+2025-10-03 18:43:10,591 - DEBUG - Loaded projects data: {'Others': {'2025-10-03T18:02:24': 0.0, '2025-10-03T18:02:47': 0.1, '2025-10-03T18:15:38': 0.0, '2025-10-03T18:16:30': 0.0, '2025-10-03T18:27:07': 0.0, '2025-10-03T18:33:15': 0.0, '2025-10-03T18:34:07': 0.0}, 'GSG': {}}
+2025-10-03 18:43:10,591 - DEBUG - Most recent project: Others
+2025-10-03 18:43:29,846 - DEBUG - Loaded projects data: {'Others': {'2025-10-03T18:02:24': 0.0, '2025-10-03T18:02:47': 0.1, '2025-10-03T18:15:38': 0.0, '2025-10-03T18:16:30': 0.0, '2025-10-03T18:27:07': 0.0, '2025-10-03T18:33:15': 0.0, '2025-10-03T18:34:07': 0.0}, 'GSG': {}}
+2025-10-03 18:43:29,846 - DEBUG - Most recent project: Others
+2025-10-03 18:44:53,533 - DEBUG - Loaded projects data: {'Others': {'2025-10-03T18:02:24': 0.0, '2025-10-03T18:02:47': 0.1, '2025-10-03T18:15:38': 0.0, '2025-10-03T18:16:30': 0.0, '2025-10-03T18:27:07': 0.0, '2025-10-03T18:33:15': 0.0, '2025-10-03T18:34:07': 0.0}, 'GSG': {}}
+2025-10-03 18:44:53,549 - DEBUG - Most recent project: Others
+2025-10-03 18:45:04,295 - DEBUG - Loaded projects data: {'Others': {'2025-10-03T18:02:24': 0.0, '2025-10-03T18:02:47': 0.1, '2025-10-03T18:15:38': 0.0, '2025-10-03T18:16:30': 0.0, '2025-10-03T18:27:07': 0.0, '2025-10-03T18:33:15': 0.0, '2025-10-03T18:34:07': 0.0}, 'GSG': {}}
+2025-10-03 18:45:04,295 - DEBUG - Most recent project: Others
+2025-10-03 18:45:24,667 - DEBUG - Loaded projects data: {'Others': {'2025-10-03T18:02:24': 0.0, '2025-10-03T18:02:47': 0.1, '2025-10-03T18:15:38': 0.0, '2025-10-03T18:16:30': 0.0, '2025-10-03T18:27:07': 0.0, '2025-10-03T18:33:15': 0.0, '2025-10-03T18:34:07': 0.0}, 'GSG': {}}
+2025-10-03 18:45:24,669 - DEBUG - Most recent project: Others
+2025-10-03 18:45:37,211 - DEBUG - Loaded projects data: {'Others': {'2025-10-03T18:02:24': 0.0, '2025-10-03T18:02:47': 0.1, '2025-10-03T18:15:38': 0.0, '2025-10-03T18:16:30': 0.0, '2025-10-03T18:27:07': 0.0, '2025-10-03T18:33:15': 0.0, '2025-10-03T18:34:07': 0.0}, 'GSG': {}}
+2025-10-03 18:45:37,211 - DEBUG - Most recent project: Others
+2025-10-03 18:48:58,909 - DEBUG - Loaded projects data: {'Others': {'2025-10-03T18:02:24': 0.0, '2025-10-03T18:02:47': 0.1, '2025-10-03T18:15:38': 0.0, '2025-10-03T18:16:30': 0.0, '2025-10-03T18:27:07': 0.0, '2025-10-03T18:33:15': 0.0, '2025-10-03T18:34:07': 0.0}, 'GSG': {}}
+2025-10-03 18:48:58,909 - DEBUG - Most recent project: Others
+2025-10-03 18:49:39,893 - DEBUG - Loaded projects data: {'Others': {'2025-10-03T18:02:24': 0.0, '2025-10-03T18:02:47': 0.1, '2025-10-03T18:15:38': 0.0, '2025-10-03T18:16:30': 0.0, '2025-10-03T18:27:07': 0.0, '2025-10-03T18:33:15': 0.0, '2025-10-03T18:34:07': 0.0}, 'GSG': {}}
+2025-10-03 18:49:39,893 - DEBUG - Most recent project: Others
+2025-10-03 18:52:01,211 - DEBUG - Loaded projects data: {'Others': {'2025-10-03T18:02:24': 0.0, '2025-10-03T18:02:47': 0.1, '2025-10-03T18:15:38': 0.0, '2025-10-03T18:16:30': 0.0, '2025-10-03T18:27:07': 0.0, '2025-10-03T18:33:15': 0.0, '2025-10-03T18:34:07': 0.0}, 'GSG': {}}
+2025-10-03 18:52:01,211 - DEBUG - Most recent project: Others
+2025-10-03 18:52:03,954 - DEBUG - Timer status: TimerStatus.RUNNING, Session time: 1s
+2025-10-03 18:52:23,842 - DEBUG - Timer status: TimerStatus.PAUSED, Session time: 20s
+2025-10-03 18:52:44,153 - DEBUG - Loaded projects data: {'Others': {'2025-10-03T18:02:24': 0.0, '2025-10-03T18:02:47': 0.1, '2025-10-03T18:15:38': 0.0, '2025-10-03T18:16:30': 0.0, '2025-10-03T18:27:07': 0.0, '2025-10-03T18:33:15': 0.0, '2025-10-03T18:34:07': 0.0}, 'GSG': {}}
+2025-10-03 18:52:44,153 - DEBUG - Most recent project: Others
+2025-10-03 18:53:20,938 - DEBUG - Loaded projects data: {'Others': {'2025-10-03T18:02:24': 0.0, '2025-10-03T18:02:47': 0.1, '2025-10-03T18:15:38': 0.0, '2025-10-03T18:16:30': 0.0, '2025-10-03T18:27:07': 0.0, '2025-10-03T18:33:15': 0.0, '2025-10-03T18:34:07': 0.0}, 'GSG': {}}
+2025-10-03 18:53:20,940 - DEBUG - Most recent project: Others
+2025-10-03 18:55:47,818 - DEBUG - Loaded projects data: {'Others': {'2025-10-03T18:02:24': 0.0, '2025-10-03T18:02:47': 0.1, '2025-10-03T18:15:38': 0.0, '2025-10-03T18:16:30': 0.0, '2025-10-03T18:27:07': 0.0, '2025-10-03T18:33:15': 0.0, '2025-10-03T18:34:07': 0.0}, 'GSG': {}}
+2025-10-03 18:55:47,818 - DEBUG - Most recent project: Others
+2025-10-03 18:56:03,132 - DEBUG - Loaded projects data: {'Others': {'2025-10-03T18:02:24': 0.0, '2025-10-03T18:02:47': 0.1, '2025-10-03T18:15:38': 0.0, '2025-10-03T18:16:30': 0.0, '2025-10-03T18:27:07': 0.0, '2025-10-03T18:33:15': 0.0, '2025-10-03T18:34:07': 0.0}, 'GSG': {}}
+2025-10-03 18:56:03,134 - DEBUG - Most recent project: Others
+2025-10-03 18:57:12,194 - DEBUG - Loaded projects data: {'Others': {'2025-10-03T18:02:24': 0.0, '2025-10-03T18:02:47': 0.1, '2025-10-03T18:15:38': 0.0, '2025-10-03T18:16:30': 0.0, '2025-10-03T18:27:07': 0.0, '2025-10-03T18:33:15': 0.0, '2025-10-03T18:34:07': 0.0}, 'GSG': {}}
+2025-10-03 18:57:12,194 - DEBUG - Most recent project: Others
+2025-10-03 18:59:13,983 - DEBUG - Timer status: TimerStatus.RUNNING, Session time: 61s
+2025-10-03 19:00:09,882 - DEBUG - Timer status: TimerStatus.PAUSED, Session time: 130s
+2025-10-03 19:00:16,255 - DEBUG - Timer status: TimerStatus.RUNNING, Session time: 136s
+2025-10-03 19:00:20,380 - DEBUG - Timer status: TimerStatus.PAUSED, Session time: 140s
+2025-10-03 19:00:44,993 - DEBUG - Loaded projects data: {'Others': {'2025-10-03T18:02:24': 0.0, '2025-10-03T18:02:47': 0.1, '2025-10-03T18:15:38': 0.0, '2025-10-03T18:16:30': 0.0, '2025-10-03T18:27:07': 0.0, '2025-10-03T18:33:15': 0.0, '2025-10-03T18:34:07': 0.0, '2025-10-03T18:58:03': 0.9}, 'GSG': {}}
+2025-10-03 19:00:44,993 - DEBUG - Most recent project: Others
+2025-10-03 19:00:52,423 - DEBUG - Timer status: TimerStatus.RUNNING, Session time: 121s
+2025-10-03 19:00:59,770 - DEBUG - Timer status: TimerStatus.RUNNING, Session time: 484s
+2025-10-03 19:01:40,010 - DEBUG - Loaded projects data: {'Others': {'2025-10-03T18:02:24': 0.0, '2025-10-03T18:02:47': 0.1, '2025-10-03T18:15:38': 0.0, '2025-10-03T18:16:30': 0.0, '2025-10-03T18:27:07': 0.0, '2025-10-03T18:33:15': 0.0, '2025-10-03T18:34:07': 0.0, '2025-10-03T18:58:03': 0.9}, 'GSG': {}}
+2025-10-03 19:01:40,010 - DEBUG - Most recent project: Others
+2025-10-03 19:01:44,556 - DEBUG - Timer status: TimerStatus.RUNNING, Session time: 181s
+2025-10-03 19:01:51,140 - DEBUG - Timer status: TimerStatus.RUNNING, Session time: 245s
+2025-10-03 19:01:57,305 - DEBUG - Timer status: TimerStatus.RUNNING, Session time: 2s
