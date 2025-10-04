@@ -25,27 +25,23 @@ class TimerStatus(Enum):
 # Setup logging for debug output
 logging.basicConfig(
     level=logging.DEBUG,
-    format='%(asctime)s - %(levelname)s - %(message)s',
+    format='%(asctime)s - %(message)s',
+    datefmt='%Y-%m-%d %H:%M:%S',
     handlers=[
-        logging.FileHandler('project_timer_debug.log'),
+        logging.FileHandler('projects_sessions.log'),
         logging.StreamHandler()  # This will still try to show in console
     ]
 )
 
-def debug_log(message):
-    """Log debug message to both file and console (if available)"""
-    logging.debug(message)
-    try:
-        print(f"DEBUG: {message}")  # Try to print to console
-    except:
-        pass  # Ignore if console not available
 
 
 class ProjectTimer:
     def __init__(self, root):
+
+        self.debug_log(f"----------------- Project Timer Launched ----------------")
         self.root = root
         self.root.title("Project Timer")
-        self.root.geometry("550x70")
+        self.root.geometry("540x90")
         self.root.resizable(False, False)
         
         # Position window with screen detection
@@ -60,7 +56,7 @@ class ProjectTimer:
         
         # Project-related variables
         self.current_project = None
-        self.current_project_hours = 2
+        self.current_project_hours = 0
         self.projects_data = {}  # {project_name: elapsed_time}
         
         # Load previous data
@@ -72,6 +68,14 @@ class ProjectTimer:
         
         # Save data when closing
         self.root.protocol("WM_DELETE_WINDOW", self.on_closing)
+
+    def debug_log(self, message):
+        """Log debug message to both file and console (if available)"""
+        
+        try:
+            logging.debug(message)  # Try to print to console
+        except:
+            pass  # Ignore if console not available
     
     def set_screen(self):
         """Detect screen configuration and return screen information"""
@@ -195,10 +199,10 @@ class ProjectTimer:
         self.project_combo.grid(row=1, column=0, columnspan=2,padx=(0, 5))
         self.project_combo.bind('<Return>', self.add_new_project)
         self.project_combo.bind('<<ComboboxSelected>>', self.on_project_selected)
-        
-        add_btn = ttk.Button(selection_frame, text="+", width=3, 
+
+        add_btn = ttk.Button(selection_frame, text="+", width=2,
                             command=self.add_current_project)
-        add_btn.grid(row=0, column=1, sticky=(tk.E))
+        add_btn.grid(row=0, column=1, sticky=(tk.E), pady=(0, 2), padx=(0,5))
         
         # Session time display
         session_frame = ttk.Frame(main_frame)
@@ -207,12 +211,30 @@ class ProjectTimer:
         
         
         style = ttk.Style()
-        style.configure("BigButton.TButton", font=("Arial", 16, "bold"))
+        try:
+            style.theme_use('clam')  # or try 'alt', 'default', 'classic'
+        except:
+            pass
+        style.configure("BigButton.TButton", 
+                        font=("Arial", 16, "bold"), 
+                        focuscolor="none", 
+                        foreground="lightblue", 
+                        background="darkblue")
 
-        self.run_btn = ttk.Button(session_frame, text="00:00:00", 
+        
+        style.configure("RedButton.TButton", 
+                       foreground="darkred",
+                       font=("Arial", 16, "bold"))
+        
+        style.configure("GreenButton.TButton", 
+                       foreground="darkgreen",
+                       font=("Arial", 16, "bold"))
+        
+        self.run_btn = ttk.Button(session_frame, text="00h 00m 00", 
                             command=self.toggle_timer,
-                            style="BigButton.TButton")
-        self.run_btn.grid(row=0, column=1, columnspan=3)
+                            style="RedButton.TButton",
+                            width=12)
+        self.run_btn.grid(row=0, column=1, columnspan=3, pady=(0, 3))
         
         self.run_btn_plus = ttk.Button(session_frame, text="+", width=6,
                             command=lambda: self.inc_session_time(+60))
@@ -225,14 +247,25 @@ class ProjectTimer:
         self.run_btn_reset.grid(row=1, column=3, sticky=(tk.E))
         
         # Global time display
-        global_frame = ttk.Frame(main_frame)
-        global_frame.grid(row=0, column=5, columnspan=2, pady=(0, 10))
+        self.global_frame = ttk.Frame(main_frame)
+        self.global_frame.grid(row=0, column=5, columnspan=2, pady=(0, 10))
         
-        ttk.Label(global_frame, text="Total(hours):", font=("Arial", 10)).grid(row=0, column=0, padx=(20, 15))
-        self.total_label = ttk.Label(global_frame, text=self.current_project_hours, 
-                 font=("Arial", 18, "bold"), foreground="darkblue")
+        ttk.Label(self.global_frame, text="Total (h):", font=("Arial", 10)).grid(row=0, column=0, padx=(20, 5))
+        self.total_label = ttk.Label(self.global_frame, text=self.current_project_hours, 
+                 font=("Arial", 18, "bold"), foreground="darkblue", width=6)
         self.total_label.grid(row=0, column=1)
         
+        # Alarm time image
+        self.image_frame = ttk.Frame(main_frame)
+        self.image_frame.grid(row=0, column=5, pady=(0, 10))
+        self.bell_icon = tk.PhotoImage(file="bell.png")
+        self.bell_icon = self.bell_icon.subsample(8, 8)  # Make half size
+
+        image_label = ttk.Label(self.image_frame, image=self.bell_icon)
+        image_label.grid(row=0, column=0, sticky=tk.W, padx=(35, 35))
+        
+        self.image_frame.grid_remove()  # Hide initially
+
         # Load project list
         self.update_project_list()
         
@@ -240,12 +273,15 @@ class ProjectTimer:
         self.update_status_info()
     
     def inc_session_time(self, delta):
-        if self.status == TimerStatus.RUNNING:
+        if self.status != TimerStatus.PAUSED:
             self.pause_timer()
         if delta == 0:
-            self.session_time = -1
+            self.session_time = 0
         else:
-            self.session_time = self.session_time + (delta - 1)
+            self.session_time = self.session_time + (delta)
+            if self.session_time < 0 :
+                self.session_time = 0
+                
         self.update_display()
     
     def add_new_project(self, event=None):
@@ -270,12 +306,26 @@ class ProjectTimer:
         
         if self.session_time > 0 and self.current_project:
             self.save_data()
-        if selected in self.projects_data:
+            
+        if selected == "CountDown":
+            self.current_project = None
+            self.session_time = 3600  # Reset session time when switching projects
+            self.run_btn.config(text="01h 00m 00")
+            self.global_frame.grid_remove()
+            self.image_frame.grid()
+                
+        elif selected in self.projects_data:
             self.current_project = selected
             self.current_project_hours = self.get_project_total_time(self.current_project)
             self.total_label.config(text=round(self.current_project_hours,1))
             self.session_time = 0  # Reset session time when switching projects
-            self.run_btn.config(text="00:00:00")
+            self.run_btn.config(text="00h 00m 00")
+            self.global_frame.grid()
+            self.image_frame.grid_remove()
+        else:
+            return 0
+        
+
     
     def update_project_list(self):
         """Update the project combobox with available projects"""
@@ -288,23 +338,24 @@ class ProjectTimer:
 
     
     def toggle_timer(self):
-        if not self.current_project:
-            messagebox.showwarning("No Project Selected", 
-                                 "Please select or create a project first.")
-            return
+        # if not self.current_project:
+        #     messagebox.showwarning("No Project Selected", 
+        #                          "Please select or create a project first.")
+        #     return
        
         if self.status == TimerStatus.RUNNING:
             self.pause_timer()
         else:
             self.resume_timer()
 
-        debug_log(f"Timer status: {self.status}, Session time: {self.session_time}s")
+        self.debug_log(f"{self.current_project}: {self.status}, Session: {self.session_time}s Total: {round(self.current_project_hours + self.session_time / 3600, 1)}h")
 
         
     def resume_timer(self):
         """Resume the timer"""
         print("Resuming timer...")
         self.status = TimerStatus.RUNNING
+        self.run_btn.config(style="GreenButton.TButton")
         self.update_display()  # Restart the display update loop
         self.update_status_info()
     
@@ -313,17 +364,19 @@ class ProjectTimer:
         print("Pausing timer...")
         
         self.status = TimerStatus.PAUSED
+        self.run_btn.config(style="RedButton.TButton")
         self.update_status_info()
     
     def get_project_total_time(self, project_name=None):
         """Get the total time for current project including active session"""
         if not self.current_project:
             return 0
+        
         most_recent_project_hours = 0
         for date, hours in self.projects_data[project_name].items():
             most_recent_project_hours += hours
        
-        return round(most_recent_project_hours + self.session_time / 3600, 1)
+        return round(most_recent_project_hours, 1)
 
     def get_most_recent_project(self):
         """Get the project with the most recent access date
@@ -336,34 +389,42 @@ class ProjectTimer:
         
         most_recent_project = None
         most_recent_date = None
-        most_recent_project_hours = 0
-        
+        print(self.projects_data)
         for project_name, project_info in self.projects_data.items():
-            total_hours = 0
-
+            if project_name == "CountDown":
+                continue
             for date in project_info:
-                print(f"Project: {project_name}, Info: {date} {project_info[date]}")
+                #print(f"Project: {project_name}, Info: {date} {project_info[date]}")
                 if not most_recent_date or date > most_recent_date:
                     most_recent_date = date
                     most_recent_project = project_name
-        
+
         # Fallback to first project if no dates found
         if most_recent_project is None and self.projects_data:
-            most_recent_project = list(self.projects_data.keys())[0]
+            most_recent_project = list(self.projects_data.keys())[1]
 
-        debug_log(f"Most recent project: {most_recent_project}")
         return most_recent_project
     
     def update_display(self):
         """Update the time display"""
+        
+        if self.status != TimerStatus.PAUSED:
+            if self.current_project:
+                self.session_time += 1
+            else:
+                self.session_time -= 1
 
-        self.session_time += 1
+        if self.session_time < 0:
+            self.session_time = 0
+            self.pause_timer()
+            self.alarm()
+            
         # Update session time display in HH:MM:SS format
         hours, minutes, seconds = helpers.convert_seconds_to_hms(self.session_time)
-        self.run_btn.config(text=f"{hours:02d}:{minutes:02d}:{seconds:02d}")
+        self.run_btn.config(text=f"{hours:02d}h {minutes:02d}m {seconds:02d}")
         
         # Update global time for current project
-        total_time = self.get_project_total_time(self.current_project)
+        total_time = round(self.current_project_hours + self.session_time / 3600, 1)
         self.total_label.config(text=round(total_time,1))
         
         # Schedule next update
@@ -387,7 +448,22 @@ class ProjectTimer:
             status_text = "No project selected"
         self.root.title(status_text)
 
-    
+    def alarm(self):
+        """Trigger an alarm when countdown reaches zero"""
+        try:
+            self.root.bell()  # Sound the system bell
+            for i in range(6):
+                self.root.title("⚠️ TIME'S UP! ⚠️" if i % 2 == 0 else original_title)
+                self.root.update()
+                time.sleep(0.5)
+            self.root.title(original_title)  
+        except:
+            pass  # Ignore if bell not available
+        messagebox.showinfo("Time's up!", "Countdown has reached zero.") 
+        # Flash the window to get attention
+        original_title = self.root.title()
+         
+        
     def save_data(self):
         """Save timer data to file"""
 
@@ -406,7 +482,6 @@ class ProjectTimer:
             try:
                 with open(DATA_FILE, 'r') as f:
                     self.projects_data = json.load(f)
-                    debug_log(f"Loaded projects data: {self.projects_data}")
                     
                     self.current_project = self.get_most_recent_project()
                     self.current_project_hours = self.get_project_total_time(self.current_project) if self.current_project else 0
@@ -426,6 +501,8 @@ class ProjectTimer:
             self.pause_timer()
         self.save_data()
         self.root.destroy()
+        self.debug_log(f"------------------------- Closed ------------------------")
+
 
 
 def main():
