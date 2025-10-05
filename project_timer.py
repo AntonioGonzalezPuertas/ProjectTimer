@@ -24,11 +24,20 @@ class TimerStatus(Enum):
     
 # Setup logging for debug output
 logging.basicConfig(
-    level=logging.DEBUG,
+    level=logging.INFO,
     format='%(asctime)s - %(message)s',
     datefmt='%Y-%m-%d %H:%M:%S',
     handlers=[
         logging.FileHandler('projects_sessions.log'),
+        logging.StreamHandler()  # This will still try to show in console
+    ]
+)
+logging.basicConfig(
+    level=logging.ERROR,
+    format='%(asctime)s - %(message)s',
+    datefmt='%Y-%m-%d %H:%M:%S',
+    handlers=[
+        logging.FileHandler('errors.log'),
         logging.StreamHandler()  # This will still try to show in console
     ]
 )
@@ -38,11 +47,11 @@ logging.basicConfig(
 class ProjectTimer:
     def __init__(self, root):
 
-        self.debug_log(f"----------------- Project Timer Launched ----------------")
+        logging.info(f"----------------- Project Timer Launched ----------------")
         self.root = root
         self.root.title("Project Timer")
         self.root.geometry("540x90")
-        self.root.resizable(False, False)
+        self.root.resizable(False, True)
         
         # Position window with screen detection
         root.update_idletasks()
@@ -69,11 +78,23 @@ class ProjectTimer:
         # Save data when closing
         self.root.protocol("WM_DELETE_WINDOW", self.on_closing)
 
-    def debug_log(self, message):
-        """Log debug message to both file and console (if available)"""
+    def project_log(self):
+        """Log project message to both file and console (if available)"""
         
         try:
-            logging.debug(message)  # Try to print to console
+            message = f"{self.current_project}: {self.status}, Session: {round(self.session_time/3600,1)}h "
+            if self.current_project != "CountDown":
+                message = message + f"Total: {round(self.current_project_hours + self.session_time / 3600, 1)}h"
+
+            logging.info(message)  # Try to print to console
+        except:
+            pass  # Ignore if console not available
+    
+    def error_log(self, message):
+        """Log error message to both file and console (if available)"""
+        
+        try:
+            logging.error(message)  # Try to print to console
         except:
             pass  # Ignore if console not available
     
@@ -308,9 +329,11 @@ class ProjectTimer:
             self.save_data()
             
         if selected == "CountDown":
-            self.current_project = None
+            self.current_project = "CountDown"
+            self.current_project_hours = 0
             self.session_time = 3600  # Reset session time when switching projects
             self.run_btn.config(text="01h 00m 00")
+            self.total_label.config(text="")
             self.global_frame.grid_remove()
             self.image_frame.grid()
                 
@@ -329,7 +352,7 @@ class ProjectTimer:
     
     def update_project_list(self):
         """Update the project combobox with available projects"""
-        projects = list(self.projects_data.keys())
+        projects = ["CountDown"] + list(self.projects_data.keys())
         self.project_combo['values'] = projects
         if projects and not self.current_project:
             self.current_project = projects[0]
@@ -348,7 +371,9 @@ class ProjectTimer:
         else:
             self.resume_timer()
 
-        self.debug_log(f"{self.current_project}: {self.status}, Session: {self.session_time}s Total: {round(self.current_project_hours + self.session_time / 3600, 1)}h")
+        self.project_log()
+            
+     
 
         
     def resume_timer(self):
@@ -391,8 +416,6 @@ class ProjectTimer:
         most_recent_date = None
         print(self.projects_data)
         for project_name, project_info in self.projects_data.items():
-            if project_name == "CountDown":
-                continue
             for date in project_info:
                 #print(f"Project: {project_name}, Info: {date} {project_info[date]}")
                 if not most_recent_date or date > most_recent_date:
@@ -409,10 +432,10 @@ class ProjectTimer:
         """Update the time display"""
         
         if self.status != TimerStatus.PAUSED:
-            if self.current_project:
-                self.session_time += 1
-            else:
+            if self.current_project == "CountDown":
                 self.session_time -= 1
+            else:
+                self.session_time += 1
 
         if self.session_time < 0:
             self.session_time = 0
@@ -468,13 +491,14 @@ class ProjectTimer:
         """Save timer data to file"""
 
         print(self.projects_data, self.current_project)
-        self.projects_data[self.current_project][datetime.now().isoformat(timespec='seconds')] = round(self.session_time / 3600, 1)
+        if self.current_project != "CountDown":
+            self.projects_data[self.current_project][datetime.now().isoformat(timespec='seconds')] = round(self.session_time / 3600, 1)
 
-        try:
-            with open(DATA_FILE, 'w') as f:
-                json.dump(self.projects_data, f, indent=2)
-        except Exception as e:
-            print(f"Error saving data: {e}")
+            try:
+                with open(DATA_FILE, 'w') as f:
+                    json.dump(self.projects_data, f, indent=2)
+            except Exception as e:
+                print(f"Error saving data: {e}")
     
     def load_data(self):
         """Load timer data from file"""
@@ -500,8 +524,9 @@ class ProjectTimer:
         if self.status == TimerStatus.RUNNING:
             self.pause_timer()
         self.save_data()
+        self.project_log()
         self.root.destroy()
-        self.debug_log(f"------------------------- Closed ------------------------")
+        logging.info(f"------------------------- Closed ------------------------")
 
 
 
